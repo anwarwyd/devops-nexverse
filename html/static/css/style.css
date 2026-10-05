@@ -1,0 +1,50 @@
+html{
+    background-color: burlywood;
+}
+
+header{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: wheat;
+}
+
+header nav{
+    width: 80%;
+    margin: auto;
+    background-color: bisque;
+
+}
+
+header h1{
+    color: maroon;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline;
+    margin: 20px;
+    font-weight: bold;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+}
+
+main h1{
+    text-align: center;
+}
+
+main img{
+   display: block;
+ 
+}
+
+section{
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
