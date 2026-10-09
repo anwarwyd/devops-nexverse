@@ -1,108 +1,127 @@
-<!DOCTYPE html>
+<!..HTML Basics..>
+
+<!Doctype html>
 <html>
-
-<head>
-    <title>My Portfolio</title>
-    <link rel="icon" href="static/img/E632E684-89A1-4359-B5B1-5048DEC3AB21.png">
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-
-<body>
-
-    <header>
-        <h1>My Portfolio</h1>
-
-        <nav>
-        <ul>
-            <li>About</li>
-            <li>Skills</li> 
-            <li>Education</li> 
-            <li>Experience </li> 
-            <li>Contact</li>
-        </ul>    
-        </nav>
-        <hr>
-    </header>
-
-    <main>
-
-        <section>
-            <h1>
-                Anwar Sadath
-            </h1>
-        </section>
-
-        <section>
-            <img src="static/img/E632E684-89A1-4359-B5B1-5048DEC3AB21.png" alt="anwar-photo" width="150">
-            <h3><i>About Me</i></h3>
-            <p align="justify">IT Support Engineer with 6+ years of experience supporting users, IT systems, hardware, infrastructure and technical operations across corporate and government environments in the UAE. Currently providing technical support within the Immigration Department at Abu Dhabi Airport, supporting ICP-related immigration systems and e-Gates. Experienced in multi-site field support, Windows troubleshooting, end-user support, hardware and peripheral support, networking, IT asset management, printers, AV and technical presentation equipment, documentation and vendor coordination.</p>
-        </section>
-
-        <section>
-            <h3><i>Skills</i></h3>
-            <ul>
-                <li>Endpoint Support: Intune, Imaging, Device & Peripheral Configuration.</li>
-                <li>IT Operations: Asset & Inventory Management, Incident Support, Documentation.</li>
-                <li>Technical Coordination: Vendor Coordination, Team Scheduling, Site Support.</li>
-                <li>Workplace Technology: Printers, AV, Presentation & Collaboration Systems.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3><i>Education</i></h3>
-            <table width="400" higt="300" border="1">
-                <thead>
-                    <th>Course</th>
-                    <th>year</th>
-                </thead>
-                <tbody>
-                <tr>
-                    <td align="center">BCA</td>
-                    <td align="center">2018</td>
-                </tr>
-
-                <tr>
-                    <td align="center">MBA IT and Marketing</td>
-                    <td align="center">2025</td>
-                </tr>
-                </tbody>
-            </table>
-        <br>
-    
-        </section>
-
-        <section>
-            <h3><i>Experience</i></h3>
-            <ol>
-                <li><b>IT Support Engineer </b><br> Abu Dhabi Airport</li>
-                <img src="https://images.cdn.centreforaviation.com/profiles/2-1099/logo.png?1707687695" width="150">
-                <br>
-                <br>
-                <li><b>IT Technician</b> <br> Presidential Guard</li>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/UAE_Presidential_Guard.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" width="75">
-            </ol>
-
-            <hr>
-        </section>
-
-        <section>
-            <h3><i>Contact Me</i></h3>
-            <p><b><a href="https://www.linkedin.com/in/anwar-sadath-ab013aab/?isSelfProfile=true" target="_blank">Linkedin</a></b></p>
-            <p><b><a href="https://github.com/anwarwyd" target="_blank">github</a></b></p>
-
-            <form>
-                <input type="text" name="fname">
-                <input type="text" name="email">
-                <button type="submit">send</button>
-            </form>
-        </section>
-        
-    </main>
-
-    <footer>
-        <p>© 2026 My Portfolio</p>
-    </footer>
-
-</body>
-
+	<head>
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="static/css/style.css">
+	</head>
+	
+	<body>
+		<header>
+		
+			<h1>Anwar Sadath</h1>
+			<p>IT Support Engineer</p>
+			
+			<nav>
+				<a href="#about">About</a>
+				<a href="#Skills">Skills</a>
+				<a href="#Education">Education</a>
+				<a href="#Experience">Experience</a>
+				<a href="#Certification">Certification</a>
+				<a href="#Contact">Contact</a>
+			</nav>
+		
+		</header>
+		
+		<main>
+			
+			<section id="about">
+				<h2>About me</h2>
+				<img src="static/img/portfolio.jpg.png" alt="profile photo" width="200" height="200">
+				
+				<p> I am an IT Support engineer xxx xxx xxx </p>
+			</section>
+			
+			<section id="Skills">
+				<h2>Skills</h2>
+					<ul>
+						<li>IT Suport</li>
+						<li>Windows administration</li>
+						<li>Networking</li>
+						<li>Azure</li>
+						<li>Hardware troubleshooting</li>
+					</ul>
+			</section>
+					
+			<section id="Education">
+				<h2>Education</h2>
+					<table border="1">
+						<thead>
+							<tr>
+							<th>Qualification</th>
+							<th>Institution</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+							<td>BCA</td>
+							<td>Albedo school of Technical education</td>
+							</tr>
+							<td>MBA</td>
+							<td>RNTU</td>
+						</tbody>
+					</table>
+			</section>
+			
+			<section id="Experience">
+				<h2>Experience</h2>
+					<article>
+					<h3>IT Technician</h3>
+					<p>Global Aerospace Logistics</p>
+					<p>Provided IT Support, hardware and software troubleshooting and administrative assistance.</p>
+					</article>
+					<hr>
+					<article>
+					<h3>IT Support Engineer</h3>
+					<p>Abu Dhabi Airport</p>
+					<p>Provided technical support, application support and passenger assistance</p>
+					</article>
+					<hr>
+			</section>
+			
+			<section id="Certification">
+				<h2>Certification</h2>
+					<ul>
+						<li>CCNA</li>
+						<li>Google IT Support</li>
+						<li>Microsoft 365 administration</li>
+						<li>Microsoft Azure Administration</li>
+					</ul>
+			</section>
+			
+			<section id="links">
+				<h2>Useful Links</h2>
+				<p><a href="http://www.linkedin.com/" target="_blank">Linkedin</a></p>
+				<p><a href="http://github.com/" target="_blank">Github</a></p>
+				<p><a href="http://facebook.com/" target="_blank">Facebook</a></p>
+			</section>
+			
+			<section id="Contact">
+				<h2>Contact Me</h2>
+					<form>
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="name" placeholder="Enter your name">
+						<br><br>
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" placeholder="Enter your Emial">
+						<br><br>
+						<label for="Message">Message:</label>
+						<textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your message"></textarea>
+						<br><br>
+						<button type="submit">Send Message</button>
+					</form>
+			</section>
+			
+		</main>
+		
+		<footer>
+			<p>@Anwar2026. All Right Reserved.</p>
+		</footer>											
+		
+	</body>
 </html>
+	
+		
+	
+	
